@@ -1,5 +1,4 @@
 module.exports = function toReadable (number) {
-  module.exports = function toReadable (number) {
   var line = number.toString().length;
   let text = '';
   if(line == 3){
@@ -96,7 +95,8 @@ module.exports = function toReadable (number) {
     if (number.toString()[1]== 9) {
         text = text.toString() + ' ninety';
     }
-if (number.toString()[2]== 1) {
+
+    if (number.toString()[2]== 1) {
         text = text.toString() + ' one';
     }
     if (number.toString()[2]== 2) {
@@ -191,7 +191,8 @@ if (number.toString()[2]== 1) {
     if (number.toString()[0]== 9) {
         text = text.toString() + 'ninety';
     }
-if (number.toString()[1]== 1) {
+
+    if (number.toString()[1]== 1) {
         text = text.toString() + ' one';
     }
     if (number.toString()[1]== 2) {
@@ -252,6 +253,4 @@ if (number.toString()[1]== 1) {
     }
   }
   return text;
-}
-
 }
